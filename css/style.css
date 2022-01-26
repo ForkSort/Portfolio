@@ -108,11 +108,11 @@ main {
     Side section 
 -----------------------*/
 aside {
-    min-width: 20%;
+    width: 20%;
 }
 aside img {
-    margin: 1em;
     object-fit: cover;
+    max-width: 100%;
 }
 /*-----------------------  
     Footer section 
