@@ -11,7 +11,7 @@
     --nav-link-focus-background: var(--foreground-color);
 }  
 * {
-    margin-inline: 0; 
+    margin-inline: auto; 
     box-sizing: border-box;
 
     /* outline: 1px dotted var(--foreground-color); */
@@ -23,7 +23,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--background-color);
     color: var(--foreground-color);
-    width: 100%;
+    width: min(1080px, 100%);
 }
 h1 {
     font-size: 3rem;
@@ -41,9 +41,10 @@ header {
     justify-content: space-between;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: min(1080px,100%);
     color: #222;
     box-shadow: black 0px 0px 12px;
+    align-items: center;
 }
 main {
     margin-top: 5rem;
