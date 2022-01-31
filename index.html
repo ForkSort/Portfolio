@@ -77,15 +77,22 @@
         <div id="contact-section" class="contact">
             <h2>Contact me</h2>
 
-            <div id="contact-form-container">
-
-            </div>
+            <form id="contact-form" action="https://formspree.io/f/xnqwpjgb" method="POST">
+                <label for="name" class="label-over">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                <label for="email" class="label-over">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                <label for="message" class="label-over">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                <button type="submit">Submit</button>
+                <p id="contact-form-status"></p>
+            </form>
 
         </div>
 
     </main>
 
 
-    <script scr="js/index.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
