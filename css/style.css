@@ -156,20 +156,23 @@ button {
     background-color: #333;
     background: linear-gradient(#aaa, #000);
     overflow: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
 }
 .project-preview > img {
     max-width: 100%;
     aspect-ratio: 2.37;
     background-color: #000;
 }
-.project ul {
+/* .project ul {
     list-style-type:none;
     padding: 0;
     display: flex;
     gap: 1rem;
     width: 100%;
     justify-content: center;
-}
+} */
 a {
     text-decoration: none;
     font-weight: bold;
