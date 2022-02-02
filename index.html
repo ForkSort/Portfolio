@@ -8,21 +8,24 @@
     <title></title>
 </head>
 <body>
+    <!--
+        move h1 from splash to top on load
+    -->
     <header>
-        <h1>I'm Patryk</h1>
         <nav>
-            <a href="#home" class="btn-style">Home</a>
-            <a href="#about-section" class="btn-style">About</a>
-            <a href="#contact-section" class="btn-style">Contact</a>
+            <a href="#about-section">About</a>
+            <a href="#home" class="nav-active">Projects</a>
+            <a href="#contact-section">Contact</a>
         </nav>
     </header>
     <main id="home">
         <!-- default page is projects -->
-        <h2>Recent projects</h2>
+<!--         <h2>Recent projects</h2> -->
 
         <div class="project">
-            <h3 class="project-title">Time tracking dashboard</h3>
-            <p class="project-abstract">A dynamically rendered time-tracking dashboard</p>
+
+            <h3 class="title-bar">Time tracking dashboard</h3>
+            <h4 class="title-context">A dynamically rendered time-tracking dashboard</h4>
             <div class="project-preview">
                 <img src="images/project-timetrack.png" alt="Project image">
                 <a href="#">Demo</a>
@@ -35,8 +38,9 @@
         </div>
 
         <div class="project">
-            <h3 class="project-title">Blackjack</h3>
-            <p class="project-abstract">A highly-customizable, fully-featured blackjack-game</p>
+
+            <h3 class="title-bar">Blackjack</h3>
+            <h4 class="title-context">A highly-customizable, fully-featured blackjack-game</h4>
             <div class="project-preview">
                 <img src="images/project-blackjackJS.png" alt="Project image">
                 <a href="#">Demo</a>
@@ -49,8 +53,9 @@
         </div>
 
         <div class="project">
-            <h3 class="project-title">Pure-CSS table-tennis</h3>
-            <p class="project-abstract">Table tennis animation using only CSS</p>
+
+            <h3 class="title-bar">Pure-CSS table-tennis</h3>
+            <h4 class="title-context">Table tennis animation using only CSS</h4>
             <div class="project-preview">
                 <img src="images/project-csstennis.png" alt="Project image">
                 <a href="#">Demo</a>
@@ -63,13 +68,25 @@
         </div>
 
         <div id="about-section" class="about">
-            <h2>About me</h2>
 
+            <h3 class="title-bar">About me</h3>
+            <h4 class="title-context"></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat atque laboriosam ab. Recusandae illo cupiditate est nobis consectetur, suscipit praesentium esse. Delectus harum inventore velit ratione sequi minus animi. Eos.</p>
+            <h5>Ipsum</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat atque laboriosam ab. Recusandae illo cupiditate est nobis consectetur, suscipit praesentium esse. Delectus harum inventore velit ratione sequi minus animi. Eos.</p>
+            <h5>Ipsum</h5>
 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat atque laboriosam ab. Recusandae illo cupiditate est nobis consectetur, suscipit praesentium esse. Delectus harum inventore velit ratione sequi minus animi. Eos.</p>
+            <h5>Ipsum</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat atque laboriosam ab. Recusandae illo cupiditate est nobis consectetur, suscipit praesentium esse. Delectus harum inventore velit ratione sequi minus animi. Eos.</p>
+            <h5>Ipsum</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat atque laboriosam ab. Recusandae illo cupiditate est nobis consectetur, suscipit praesentium esse. Delectus harum inventore velit ratione sequi minus animi. Eos.</p>
         </div>
 
         <div id="contact-section" class="contact">
-            <h2>Contact me</h2>
+            
+            <h3 class="title-bar">Contact me</h3>
+            <h4 class="title-context"></h4>
 
             <form id="contact-form" action="https://formspree.io/f/xnqwpjgb" method="POST">
                 <label for="name" class="label-over">Name</label>
@@ -79,7 +96,7 @@
                 <label for="message" class="label-over">Message</label>
                     <textarea name="message" id="message"></textarea>
                 <button type="submit" class="btn-style">Submit</button>
-                <p id="contact-form-status"></p>
+                <p id="contact-form-status" class="form-status"></p>
             </form>
 
         </div>
