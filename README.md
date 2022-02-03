@@ -1,6 +1,6 @@
 # Portfolio
 
-![Demo](https://forksort.github.io/Portfolio/)
+[Demo](https://forksort.github.io/Portfolio/)
 
 #### Status 03-02-22 
 - All pages work (mostly) as intended
