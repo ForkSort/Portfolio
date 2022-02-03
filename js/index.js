@@ -12,13 +12,14 @@ function hashChange() {
 
     const path = window.location.hash.substr(1);
     const pages = [
-        "about",
         "projects",
+        "about",
         "contact"
     ];
-
     if (pages.includes(path))
         renderPage(path);
+    else if (path === "")
+        renderPage(pages[0]);
 }
 /**
  * Renders the page
