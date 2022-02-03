@@ -35,7 +35,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     text-align: center;
     margin: 0;
 }
@@ -170,11 +171,15 @@ main {
 }
 
 .project-description {
-    padding: 1em;
+    padding: 2em;
     display: flex;
     flex-wrap: wrap;
 
     color: #e3e6e8;
+}
+.project-description h4 {
+    font-weight: bold;
+    width: 100%;
 }
 .project-preview {
     margin: 1rem;

@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Time tracking dashboard",
+        "info": "A dynamically rendered time-tracking dashboard",
+        "description": "Singleton approach, responsive one-page app. To increase performance it loads JSON-data once, then renders user-data from memory. Taking that one step further, i used createElement() & createDocumentFragment() to make it both XSS-safe and faster (than innerHTML).",
+        "tech": ["HTML", "CSS", "JS"],
+        "images": {
+            "passive": [
+                {"url": "./images/project-timetrack.png", "alt": "Image of project"}
+            ],
+            "active": []
+        },
+        "links": {
+            "demo": "https://forksort.github.io/Time-tracking-dashboard/",
+            "source": "https://github.com/ForkSort/Time-tracking-dashboard"
+        }
+    },
+    {
+        "name": "Blackjack JS",
+        "info": "A highly-customizable, fully-featured blackjack-game",
+        "description": "I made this while on winter-holidays from the Kodehode Fullstack-Developer course. It follows SOLID principles, which makes it easily extendible and portable (to other languages).",
+        "tech": ["HTML", "CSS", "JS"],
+        "images": {
+            "passive": [
+                {"url": "./images/project-blackjackJS.png", "alt": "Image of project"}
+            ],
+            "active": []
+        },
+        "links": {
+            "demo": "https://forksort.github.io/BlackjackJS/",
+            "source": "https://github.com/ForkSort/BlackjackJS"
+        }
+    },
+    {
+        "name": "Pure-CSS table-tennis",
+        "info": "Table tennis animation using only CSS",
+        "description": "Wrote this for the css-animation assignment at Kodehode. I leveraged box-shadows within animation-keyframes to give the illusion of 3d-movement.",
+        "tech": ["HTML", "CSS"],
+        "images": {
+            "passive": [
+                {"url": "./images/project-csstennis.png", "alt": "Image of project"}
+            ],
+            "active": []
+        },
+        "links": {
+            "demo": "https://forksort.github.io/PureCSS-Table-tennis/",
+            "source": "https://github.com/ForkSort/PureCSS-Table-tennis"
+        }
+    }
+]
