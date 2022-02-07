@@ -49,11 +49,11 @@ function renderPage(page) {
             ["h3", {className: "title-bar", textContent: "Contact me"}],
             ["h4", {className: "title-context"}],
             ["form", {id: "contact-form", action: "https://formspree.io/f/xnqwpjgb", method: "POST"}, [
-                ["label", {for: "name", textContent: "Name"}],
+                ["label", {htmlFor: "name", textContent: "Name"}],
                 ["input", {type: "text", name: "name", id: "name", placeholder: "Enter your name", required: true}],
-                ["label", {for: "email", textContent: "Email"}],
+                ["label", {htmlFor: "email", textContent: "Email"}],
                 ["input", {type: "email", name: "email", id: "email", placeholder: "Enter your email-address", required: true}],
-                ["label", {for: "message", textContent: "Message"}],
+                ["label", {htmlFor: "message", textContent: "Message"}],
                 ["textarea", {name: "message", id: "message", required: true}],
                 ["button", {type: "submit", className: "btn-style", textContent: "Submit"}],
                 ["p", {id: "contact-form-status", className: "form-status"}]
