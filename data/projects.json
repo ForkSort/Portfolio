@@ -1,5 +1,21 @@
 [
     {
+        "name": "Drum-machine",
+        "info": "A Web Audio API drum-machine in vanilla JS",
+        "description": "A Web Audio API drum-machine in vanilla JS",
+        "tech": ["HTML", "CSS", "JS"],
+        "images": {
+            "passive": [
+                {"url": "./images/project-drummachine.png", "alt": "Image of project"}
+            ],
+            "active": []
+        },
+        "links": {
+            "demo": "https://forksort.github.io/DrumMachineJS/",
+            "source": "https://github.com/ForkSort/DrumMachineJS"
+        }
+    },
+    {
         "name": "Time tracking dashboard",
         "info": "A dynamically rendered time-tracking dashboard",
         "description": "Singleton approach, responsive one-page app. To increase performance it loads JSON-data once, then renders user-data from memory. Taking that one step further, i used createElement() & createDocumentFragment() to make it both XSS-safe and faster (than innerHTML).",
